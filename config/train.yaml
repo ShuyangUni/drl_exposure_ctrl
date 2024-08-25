@@ -1,0 +1,24 @@
+seqs_root: /home/uni/Data/RL_Expo_data_20240801/processed
+sequences: 
+  -
+    seq_name: 2024-07-30-18-17-56
+  -
+    seq_name: 2024-07-30-18-18-42
+  -
+    seq_name: 2024-07-30-18-19-05
+states: 
+      - 
+        expo_t: 50
+        gain: 0
+      - 
+        expo_t: 198
+        gain: 0
+      - 
+        expo_t: 1008
+        gain: 0
+      - 
+        expo_t: 5007
+        gain: 0
+      - 
+        expo_t: 19994
+        gain: 0

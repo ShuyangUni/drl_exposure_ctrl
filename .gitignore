@@ -1,0 +1,5 @@
+**/__pycache__
+log
+model/*.pth
+!model/actor_drl_feat_10000.pth
+!model/actor_drl_stat_10000.pth
