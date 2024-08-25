@@ -1,4 +1,5 @@
 **/__pycache__
+**/.DS_Store
 log
 model/*.pth
 !model/actor_drl_feat_10000.pth
