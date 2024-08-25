@@ -41,10 +41,10 @@ We want to implement an exposure control method based on deep reinforcement lear
 * **Sufficient experimental evaluation**, which demonstrates that our exposure control method improves the performance of VO tasks, and achieves faster response speed and reduced time consumption.
 
 <p align="center">
-  <img src="docs/cover_01.png" width = "90%" alt="cover_01" title="cover_01" />
+  <img src="docs/cover_01.png" width = "70%" alt="cover_01" title="cover_01" />
 </p>
 <p align="center">
-  <img src="docs/cover_02.png" width = "90%" alt="cover_02" title="cover_02" />
+  <img src="docs/cover_02.png" width = "70%" alt="cover_02" title="cover_02" />
 </p>
 <p align="center">
   Our DRL-based method with feature-level rewards (DRL-feat) exhibits a high-level comprehension of lighting and motion. It predicts the impending over-exposure event and preemptively reduces the exposure. While this adjustment temporarily decreases the number of tracked feature points, it effectively prevents a more severe failure in subsequent frames.
@@ -95,44 +95,24 @@ We want to implement an exposure control method based on deep reinforcement lear
 
 ## Results
 **Corridor**
-<div style="display: flex; justify-content: center; align-items: center;">
-  <div style="margin: 10px; text-align: center;">
-    <img src="docs/corridor/built-in.gif" width="100px" alt="built-in" title="built-in" />
-    <div>Built-in</div>
-  </div>
-  <div style="margin: 10px; text-align: center;">
-    <img src="docs/corridor/shim.gif" width="100px" alt="shim" title="shim" />
-    <div>Shim</div>
-  </div>
-  <div style="margin: 10px; text-align: center;">
-    <img src="docs/corridor/drl-stat.gif" width="100px" alt="drl-stat" title="drl-stat" />
-    <div>DRL-stat</div>
-  </div>
-  <div style="margin: 10px; text-align: center;">
-    <img src="docs/corridor/drl-feat.gif" width="100px" alt="drl-feat" title="drl-feat" />
-    <div>DRL-feat</div>
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center"><img src="docs/corridor/built-in.gif" width="100" alt="built-in"><br>Built-in</td>
+    <td align="center"><img src="docs/corridor/shim.gif" width="100" alt="shim"><br>Shim</td>
+    <td align="center"><img src="docs/corridor/drl-stat.gif" width="100" alt="drl-stat"><br>DRL-stat</td>
+    <td align="center"><img src="docs/corridor/drl-feat.gif" width="100" alt="drl-feat"><br>DRL-Feat</td>
+  </tr>
+</table>
 
 **Parking**
-<div style="display: flex; justify-content: center; align-items: center;">
-  <div style="margin: 10px; text-align: center;">
-    <img src="docs/parking/built-in.gif" width="100px" alt="built-in" title="built-in" />
-    <div>Built-in</div>
-  </div>
-  <div style="margin: 10px; text-align: center;">
-    <img src="docs/parking/shim.gif" width="100px" alt="shim" title="shim" />
-    <div>Shim</div>
-  </div>
-  <div style="margin: 10px; text-align: center;">
-    <img src="docs/parking/drl-stat.gif" width="100px" alt="drl-stat" title="drl-stat" />
-    <div>DRL-stat</div>
-  </div>
-  <div style="margin: 10px; text-align: center;">
-    <img src="docs/parking/drl-feat.gif" width="100px" alt="drl-feat" title="drl-feat" />
-    <div>DRL-feat</div>
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center"><img src="docs/parking/built-in.gif" width="100" alt="built-in"><br>Built-in</td>
+    <td align="center"><img src="docs/parking/shim.gif" width="100" alt="shim"><br>Shim</td>
+    <td align="center"><img src="docs/parking/drl-stat.gif" width="100" alt="drl-stat"><br>DRL-stat</td>
+    <td align="center"><img src="docs/parking/drl-feat.gif" width="100" alt="drl-feat"><br>DRL-Feat</td>
+  </tr>
+</table>
 
 ## License
 
