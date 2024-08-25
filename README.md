@@ -2,7 +2,7 @@
  * @Author: Shuyang Zhang
  * @Date: 2024-08-25 19:55:54
  * @LastEditors: ShuyangUni shuyang.zhang1995@gmail.com
- * @LastEditTime: 2024-08-25 22:55:39
+ * @LastEditTime: 2024-08-25 23:30:05
  * @Description: 
  * 
  * Copyright (c) 2024 by Shuyang Zhang, All Rights Reserved. 
@@ -57,7 +57,7 @@ We want to implement an exposure control method based on deep reinforcement lear
    If you want to train with our data, please download the [full datasets](https://hkustconnect-my.sharepoint.com/:u:/g/personal/szhangcy_connect_ust_hk/EYSZnuAgTCJNnYqZpWaN6HYBPNHvzwkbjdxA7rzVhfyuTA?e=YWgyWN).
 
 2. Configure the environment.
-   Our code is all implemented in Python. You can use Conda and Pip install all the required packages.
+   Our code is implemented in Python. You can use Conda and Pip to install all the required packages.
 
    ```
    # create conda environment
@@ -92,6 +92,47 @@ We want to implement an exposure control method based on deep reinforcement lear
 ```
   python train.py
 ```
+
+## Results
+**Corridor**
+<div style="display: flex; justify-content: center; align-items: center;">
+  <div style="margin: 10px; text-align: center;">
+    <img src="docs/corridor/built-in.gif" width="100px" alt="built-in" title="built-in" />
+    <div>Built-in</div>
+  </div>
+  <div style="margin: 10px; text-align: center;">
+    <img src="docs/corridor/shim.gif" width="100px" alt="shim" title="shim" />
+    <div>Shim</div>
+  </div>
+  <div style="margin: 10px; text-align: center;">
+    <img src="docs/corridor/drl-stat.gif" width="100px" alt="drl-stat" title="drl-stat" />
+    <div>DRL-stat</div>
+  </div>
+  <div style="margin: 10px; text-align: center;">
+    <img src="docs/corridor/drl-feat.gif" width="100px" alt="drl-feat" title="drl-feat" />
+    <div>DRL-feat</div>
+  </div>
+</div>
+
+**Parking**
+<div style="display: flex; justify-content: center; align-items: center;">
+  <div style="margin: 10px; text-align: center;">
+    <img src="docs/parking/built-in.gif" width="100px" alt="built-in" title="built-in" />
+    <div>Built-in</div>
+  </div>
+  <div style="margin: 10px; text-align: center;">
+    <img src="docs/parking/shim.gif" width="100px" alt="shim" title="shim" />
+    <div>Shim</div>
+  </div>
+  <div style="margin: 10px; text-align: center;">
+    <img src="docs/parking/drl-stat.gif" width="100px" alt="drl-stat" title="drl-stat" />
+    <div>DRL-stat</div>
+  </div>
+  <div style="margin: 10px; text-align: center;">
+    <img src="docs/parking/drl-feat.gif" width="100px" alt="drl-feat" title="drl-feat" />
+    <div>DRL-feat</div>
+  </div>
+</div>
 
 ## License
 
