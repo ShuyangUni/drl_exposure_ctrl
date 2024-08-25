@@ -2,7 +2,7 @@
  * @Author: Shuyang Zhang
  * @Date: 2024-08-25 19:55:54
  * @LastEditors: ShuyangUni shuyang.zhang1995@gmail.com
- * @LastEditTime: 2024-08-25 22:29:41
+ * @LastEditTime: 2024-08-25 22:55:39
  * @Description: 
  * 
  * Copyright (c) 2024 by Shuyang Zhang, All Rights Reserved. 
@@ -57,9 +57,18 @@ We want to implement an exposure control method based on deep reinforcement lear
    If you want to train with our data, please download the [full datasets](https://hkustconnect-my.sharepoint.com/:u:/g/personal/szhangcy_connect_ust_hk/EYSZnuAgTCJNnYqZpWaN6HYBPNHvzwkbjdxA7rzVhfyuTA?e=YWgyWN).
 
 2. Configure the environment.
-   Our code is all implemented in Python. You can use Conda to load all the required packages.
+   Our code is all implemented in Python. You can use Conda and Pip install all the required packages.
 
    ```
+   # create conda environment
+   conda create -n drl_expo_ctrl python=3.8
+   conda activate drl_expo_ctrl
+
+   # install requirement packages
+   pip install opencv-python pyyaml tensorboard
+
+   # install torch, recommended to follow the official website guidelines with CUDA version.
+   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
    ```
 
