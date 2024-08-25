@@ -2,7 +2,7 @@
  * @Author: Shuyang Zhang
  * @Date: 2024-08-25 19:55:54
  * @LastEditors: ShuyangUni shuyang.zhang1995@gmail.com
- * @LastEditTime: 2024-08-25 21:52:52
+ * @LastEditTime: 2024-08-25 22:29:41
  * @Description: 
  * 
  * Copyright (c) 2024 by Shuyang Zhang, All Rights Reserved. 
@@ -47,15 +47,43 @@ We want to implement an exposure control method based on deep reinforcement lear
   <img src="docs/cover_02.png" width = "90%" alt="cover_02" title="cover_02" />
 </p>
 <p align="center">
-  Our DRL-based method with feature-level rewards~(DRL-feat) exhibits a high-level comprehension of lighting and motion. It predicts the impending over-exposure event and preemptively reduces the exposure. While this adjustment temporarily decreases the number of tracked feature points, it effectively prevents a more severe failure in subsequent frames.
+  Our DRL-based method with feature-level rewards (DRL-feat) exhibits a high-level comprehension of lighting and motion. It predicts the impending over-exposure event and preemptively reduces the exposure. While this adjustment temporarily decreases the number of tracked feature points, it effectively prevents a more severe failure in subsequent frames.
 </p>
 
 ## Run the code
-
 ### Setup
+1. Download our dataset. 
+   If you only want to run the agents with the [pretrained model](model), please download the [test dataset](https://hkustconnect-my.sharepoint.com/:u:/g/personal/szhangcy_connect_ust_hk/Ef3AfNOkCLZKqXRKPYEbxjcBiHXBtSmV3-2IAT7xRdon_w?e=1jODLF) only.
+   If you want to train with our data, please download the [full datasets](https://hkustconnect-my.sharepoint.com/:u:/g/personal/szhangcy_connect_ust_hk/EYSZnuAgTCJNnYqZpWaN6HYBPNHvzwkbjdxA7rzVhfyuTA?e=YWgyWN).
+
+2. Configure the environment.
+   Our code is all implemented in Python. You can use Conda to load all the required packages.
+
+   ```
+
+   ```
+
+3. Update configuration and parameters
+   After unzipping the datasets, please change the root directory (**seqs_root**) of the dataset in [train.yaml](config/train.yaml) and [infer.yaml](config/infer.yaml).
+  
 
 ### Infer with pre-trained agents
+1. Choose the sequence to replay. 
+   Change the sequence name (**seq_name**) in [infer.yaml](config/infer.yaml)
+2. Change the name of pretrained models. 
+   Loaded by PyTorch in [infer.py](infer.py)
+3. Run the inference
+```
+  python infer.py
+```
 
 ### Train customized agents
+1. Customize the parameters in [train.py](train.py)
+2. Run the training
+```
+  python train.py
+```
 
-## Citation
+## License
+
+The source code is released under [MIT](https://opensource.org/license/MIT) license.
