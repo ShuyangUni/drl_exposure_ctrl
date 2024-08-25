@@ -1,7 +1,9 @@
-seqs_root: /home/uni/Data/RL_Expo_data_20240730/processed/
+seqs_root: /home/uni/Data/drl_exposure_ctrl
 sequences: 
   -
-    seq_name: 2024-07-30-13-01-44
+    seq_name: test_corridor
+    # seq_name: test_countyard
+    # seq_name: test_parking
 states: 
       - 
         expo_t: 50

@@ -1,11 +1,11 @@
-seqs_root: /home/uni/Data/RL_Expo_data_20240801/processed
+seqs_root: /home/uni/Data/drl_exposure_ctrl
 sequences: 
   -
-    seq_name: 2024-07-30-18-17-56
+    seq_name: train_indoor
   -
-    seq_name: 2024-07-30-18-18-42
+    seq_name: train_outdoor
   -
-    seq_name: 2024-07-30-18-19-05
+    seq_name: train_parking
 states: 
       - 
         expo_t: 50
