@@ -100,7 +100,7 @@ We want to implement an exposure control method based on deep reinforcement lear
     <td align="center"><img src="docs/corridor/built-in.gif" width="100" alt="built-in"><br>Built-in</td>
     <td align="center"><img src="docs/corridor/shim.gif" width="100" alt="shim"><br>Shim</td>
     <td align="center"><img src="docs/corridor/drl-stat.gif" width="100" alt="drl-stat"><br>DRL-stat</td>
-    <td align="center"><img src="docs/corridor/drl-feat.gif" width="100" alt="drl-feat"><br>DRL-Feat</td>
+    <td align="center"><img src="docs/corridor/drl-feat.gif" width="100" alt="drl-feat"><br>DRL-feat</td>
   </tr>
 </table>
 
@@ -110,7 +110,7 @@ We want to implement an exposure control method based on deep reinforcement lear
     <td align="center"><img src="docs/parking/built-in.gif" width="100" alt="built-in"><br>Built-in</td>
     <td align="center"><img src="docs/parking/shim.gif" width="100" alt="shim"><br>Shim</td>
     <td align="center"><img src="docs/parking/drl-stat.gif" width="100" alt="drl-stat"><br>DRL-stat</td>
-    <td align="center"><img src="docs/parking/drl-feat.gif" width="100" alt="drl-feat"><br>DRL-Feat</td>
+    <td align="center"><img src="docs/parking/drl-feat.gif" width="100" alt="drl-feat"><br>DRL-feat</td>
   </tr>
 </table>
 
