@@ -13,7 +13,7 @@ This is an official repository of
 
 **Efficient Camera Exposure Control for Visual Odometry via Deep Reinforcement Learning**, Shuyang Zhang, Jinhao He, Yilong Zhu, Jin Wu, and Jie Yuan.
 
-This paper is currently under review at **IEEE Robotics and Automation Letters (RAL)**.
+This paper is published on **IEEE Robotics and Automation Letters (RAL)**.
 
 <p align="center">
   <img src="docs/fw_train.png" width = "100%" alt="Training process." title="overview" />
@@ -52,11 +52,11 @@ We want to implement an exposure control method based on deep reinforcement lear
 
 ## Run the code
 ### Setup
-1. Download our dataset. 
-   If you only want to run the agents with the [pretrained model](model), please download the [test dataset](https://hkustconnect-my.sharepoint.com/:u:/g/personal/szhangcy_connect_ust_hk/Ef3AfNOkCLZKqXRKPYEbxjcBiHXBtSmV3-2IAT7xRdon_w?e=1jODLF) only.
-   If you want to train with our data, please download the [full datasets](https://hkustconnect-my.sharepoint.com/:u:/g/personal/szhangcy_connect_ust_hk/EYSZnuAgTCJNnYqZpWaN6HYBPNHvzwkbjdxA7rzVhfyuTA?e=YWgyWN).
+1. Download our dataset.
+   Please download the [full datasets](https://drive.google.com/file/d/1dFbQsOb8n2iBngAP1yPXI5-GQTb35qNz/view?usp=sharing), with 3 training sequences and 3 testing sequences
+   You can also run with our [pretrained model](model) on your own data.
 
-2. Configure the environment.
+3. Configure the environment.
    Our code is implemented in Python. You can use Conda and Pip to install all the required packages.
 
    ```
@@ -72,7 +72,7 @@ We want to implement an exposure control method based on deep reinforcement lear
 
    ```
 
-3. Update configuration and parameters
+4. Update configuration and parameters
    After unzipping the datasets, please change the root directory (**seqs_root**) of the dataset in [train.yaml](config/train.yaml) and [infer.yaml](config/infer.yaml).
   
 
